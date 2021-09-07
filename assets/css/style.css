@@ -1,3 +1,4 @@
+/* CSS to modify some Bootstrap 5 styles*/
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -5,17 +6,28 @@ body {
     background-color:black;
 }
 
+/* Place navbar on top of the carousel images*/
 .navbar{
     position:absolute;
- }
+}
 
+/* Modify heigth and opacity of Bootstrap default hr*/
  hr:not([size]) {
     height: 2px;
     opacity: 50;
 }
 
+/* Modify navbar text color on non-active links, for better contrast against background images*/
 .navbar-dark .navbar-nav .nav-link {
     color: white;
 }
 
+/* Modify title color on Popover*/
+h3.popover-header{
+    color:black;
+}
 
+/* Assign padding left to all icons inside <a> at once*/
+a i {
+    padding-left:10px;
+}
