@@ -8,29 +8,26 @@
     <meta name="author" content="Rodrigo Z.">
     <meta name="description" content="Página Viajes Chile">
     <meta name="keywords" content="viajes, Chile, norte de Chile">
-
 <!--2. Pestaña y Favicon-->
     <title>Viajes Chile</title>
     <link rel="shortcut icon" type="img/png" href="./assets/img/favicon_plane.png"/>
-
 <!--11. CSS Bootsrtap 5.1.0-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 <!--12. Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
-<!--13.Icons-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!--13.Icons-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 <!--14. My CSS Project-->
     <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
 
 <body>
-
-    
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!--20. NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#"> <img src="./assets/img/viajes.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">Viajes Chile</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,10 +42,10 @@
                 <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Destacados</a>
+                <a class="nav-link" href="#destacados">Destacados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>
@@ -79,113 +76,100 @@
         </button>
       </div>
 
-    <div class="section container" id="quienes-somos">
-    <h3 class="text-center">¿Quiénes Somos?</h3>
-    <hr>
-    <div class="row">
-        <div class="col-4"> 
-            <div class="container-fluid bg-info text-center">
-                <i class="fas fa-plane"></i>
-            </div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro aliquam hic tempore alias sit, veritatis perspiciatis nemo sequi, libero veniam consequatur blanditiis, praesentium eveniet magni qui quae incidunt enim.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro aliquam hic tempore alias sit, veritatis perspiciatis nemo sequi, libero veniam consequatur blanditiis, praesentium eveniet magni qui quae incidunt enim.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro aliquam hic tempore alias sit, veritatis perspiciatis nemo sequi, libero veniam consequatur blanditiis, praesentium eveniet magni qui quae incidunt enim.
-                    </p>
-                </div>
-                
-        </div>
-        <div class="col-4"> 
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro aliquam hic tempore alias sit, veritatis perspiciatis nemo sequi, libero veniam consequatur blanditiis, praesentium eveniet magni qui quae incidunt enim.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro aliquam hic tempore alias sit, veritatis perspiciatis nemo sequi, libero veniam consequatur blanditiis, praesentium eveniet magni qui quae incidunt enim.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro aliquam hic tempore alias sit, veritatis perspiciatis nemo sequi, libero veniam consequatur blanditiis, praesentium eveniet magni qui quae incidunt enim.
-                    </p>
-                </div>
-                <div class="container-fluid bg-info text-center">
-                    <i class="fas fa-plane"></i>
-                </div>
-                
-        </div>
-        <div class="col-4"> 
-            <div class="container-fluid bg-info text-center">
-                <i class="fas fa-plane"></i>
-            </div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro aliquam hic tempore alias sit, veritatis perspiciatis nemo sequi, libero veniam consequatur blanditiis, praesentium eveniet magni qui quae incidunt enim.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro aliquam hic tempore alias sit, veritatis perspiciatis nemo sequi, libero veniam consequatur blanditiis, praesentium eveniet magni qui quae incidunt enim.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro aliquam hic tempore alias sit, veritatis perspiciatis nemo sequi, libero veniam consequatur blanditiis, praesentium eveniet magni qui quae incidunt enim.
-                    </p>
-                </div>
-                
-        </div>
-    </div>
-    <div class="section container" id="destacados">
-    <h3 class="text-center">Destacados</h3>
-    <hr>
-        <div class="row">
-            <div class="col-3">
-                <div class="card bg-info">
-                    <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
+      <div class="section container" id="quienes-somos">
+      <h3 class="text-center">¿Quiénes Somos?</h3>
+      <hr>
+      <div class="row">
+          <div class="col-4"> 
+              <div class="container-fluid bg-info text-center">
+                  <i class="fas fa-plane"></i>
+              </div>
+                  <div>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro aliquam hic tempore alias sit, veritatis perspiciatis nemo sequi, libero veniam consequatur blanditiis, praesentium eveniet magni qui quae incidunt enim.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro aliquam hic tempore alias sit, veritatis perspiciatis nemo sequi, libero veniam consequatur blanditiis, praesentium eveniet magni qui quae incidunt enim.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro aliquam hic tempore alias sit, veritatis perspiciatis nemo sequi, libero veniam consequatur blanditiis, praesentium eveniet magni qui quae incidunt enim.
+                      </p>
                   </div>
-            </div>
-            <div class="col-3">
-                <div class="card bg-info">
-                    <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
+                  
+          </div>
+          <div class="col-4"> 
+                  <div>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro aliquam hic tempore alias sit, veritatis perspiciatis nemo sequi, libero veniam consequatur blanditiis, praesentium eveniet magni qui quae incidunt enim.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro aliquam hic tempore alias sit, veritatis perspiciatis nemo sequi, libero veniam consequatur blanditiis, praesentium eveniet magni qui quae incidunt enim.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro aliquam hic tempore alias sit, veritatis perspiciatis nemo sequi, libero veniam consequatur blanditiis, praesentium eveniet magni qui quae incidunt enim.
+                      </p>
                   </div>
-            </div>
-            <div class="col-3">
-                <div class="card bg-info">
-                    <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
+                  <div class="container-fluid bg-info text-center">
+                      <i class="fas fa-plane"></i>
                   </div>
-            </div>
-            <div class="col-3">
-                <div class="card bg-info">
-                    <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
+                  
+          </div>
+          <div class="col-4"> 
+              <div class="container-fluid bg-info text-center">
+                  <i class="fas fa-plane"></i>
+              </div>
+                  <div>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro aliquam hic tempore alias sit, veritatis perspiciatis nemo sequi, libero veniam consequatur blanditiis, praesentium eveniet magni qui quae incidunt enim.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro aliquam hic tempore alias sit, veritatis perspiciatis nemo sequi, libero veniam consequatur blanditiis, praesentium eveniet magni qui quae incidunt enim.Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae porro aliquam hic tempore alias sit, veritatis perspiciatis nemo sequi, libero veniam consequatur blanditiis, praesentium eveniet magni qui quae incidunt enim.
+                      </p>
                   </div>
-            </div>
+                  
+          </div>
+      </div>
+      </div>
+
+      <div class="section container" id="destacados">
+      <h3 class="text-center">Destacados</h3>
+      <hr>
+          <div class="row">
+              <div class="col-3">
+                  <div class="card bg-info">
+                      <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-3">
+                  <div class="card bg-info">
+                      <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-3">
+                  <div class="card bg-info">
+                      <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-3">
+                  <div class="card bg-info">
+                      <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
+                    </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="section container" id="contacto">
+        <h3 class="text-center">Contacto</h3>
+        <hr>
+        <div class="container text-center">
+          <div class="row">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScFjF9w2h6jIos6_D-Dq01B5c0Fkt2lY8LvXweBjkSrmWP3FQ/viewform?embedded=true" width="640" height="462" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          </div>
         </div>
-
-
-    </div>
-
-    <div class="section container" id="contacto">
-    <h3 class="text-center">Contacto</h3>
-    <hr>
-    <div class="container text-center">
-<div class="row">
-    <div class="col-2"></div>
-    <div class="col-8 bg-white">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScFjF9w2h6jIos6_D-Dq01B5c0Fkt2lY8LvXweBjkSrmWP3FQ/viewform?embedded=true" width="640" height="462" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </div>
-    <div class="col-2"></div>
-</div>
-    </div>
-    </div>
-    </div>
-
-
-
- 
-
-
-
-    <footer class="container-fluid bg-info d-flex flex-column">
-        <div class="container">
-            <h3>VIAJES CHILE</h3>
-        </div>
-    </footer>
-
+      </div>
+      <footer class="container-fluid bg-info d-flex flex-column">
+          <div class="container">
+              <h3>VIAJES CHILE</h3>
+          </div>
+      </footer>
 <!--21. Jquery 3.6.0-->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <!--22. Popper-->
